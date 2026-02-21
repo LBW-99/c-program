@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+    int main(){
+        string str1="Hello";
+        string str2="buddy";
+        int a=str1.compare(str2);
+        if(a==0){
+        cout<<"both the  strings are equal";
+        }
+        else{
+        cout<<"both the strings are unequal";
+        }
+    
+        
+    
+    
+    return 0;
+}
